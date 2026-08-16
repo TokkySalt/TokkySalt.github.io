@@ -1012,7 +1012,7 @@ async function addFriendMessage(
         currentQuestionIndex >=
         questions.length
       ) {
-        showEndMessages();
+
         finishGame();
 
       } else {
