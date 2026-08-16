@@ -581,22 +581,6 @@ async function addFriendMessage(
     }
 
   }
-  /* ==========================================================
-     ゲーム終了メッセージ
-  ========================================================== */
-  async function showEndMessages() {
-    for (
-      const message
-      of GAME_CONFIG.endMessages | []
-    ) {
-      await addFriendMessage(
-        message,
-        message.typingdelay ?? 700
-      );
-      await sleep(180);
-    }
-  }
-
 
   /* ==========================================================
      問題表示
