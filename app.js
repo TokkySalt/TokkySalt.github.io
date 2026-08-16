@@ -1205,7 +1205,6 @@ async function addFriendMessage(
      * 開始メッセージ
      */
     await showStartMessages();
-   await showEndMessages();
 
     await sleep(400);
 
